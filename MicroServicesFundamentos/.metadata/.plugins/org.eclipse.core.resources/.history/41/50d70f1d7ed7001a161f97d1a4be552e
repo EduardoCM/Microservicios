@@ -1,0 +1,5 @@
+package com.tarjetas.digitales.deposito.feing;
+
+public interface ClientesTarjetas {
+
+}

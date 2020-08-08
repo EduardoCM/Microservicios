@@ -1,0 +1,13 @@
+package com.tarjetas.digitales.clientes;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TarjetasDigitalesClientesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TarjetasDigitalesClientesApplication.class, args);
+	}
+
+}

@@ -1,0 +1,2 @@
+server.port=8180
+spring.aplication.name=tarjeta-digitales-clientes

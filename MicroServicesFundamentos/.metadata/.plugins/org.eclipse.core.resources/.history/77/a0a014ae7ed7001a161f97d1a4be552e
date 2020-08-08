@@ -1,0 +1,25 @@
+package com.tarjetas.digitales.deposito.api;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tarjetas.digitales.deposito.feing.ClientesTarjetas;
+import com.tarjetas.digitales.deposito.model.TarjetaMongo;
+
+@RestController
+public class DepositoController {
+
+	
+	@Autowired
+	private ClientesTarjetas cliente;
+	
+	
+	
+	
+	public List<TarjetaMongo> depositar(){
+		return cliente.buscarTarjetas();
+	}
+	
+}

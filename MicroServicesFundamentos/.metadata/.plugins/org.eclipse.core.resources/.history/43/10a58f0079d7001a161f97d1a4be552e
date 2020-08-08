@@ -1,0 +1,9 @@
+package com.tarjetas.digitales.clientes.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tarjetas.digitales.clientes.model.TarjetaEntity;
+
+public interface TarjetaRepositoryOracle extends JpaRepository<TarjetaEntity, Integer> {
+
+}

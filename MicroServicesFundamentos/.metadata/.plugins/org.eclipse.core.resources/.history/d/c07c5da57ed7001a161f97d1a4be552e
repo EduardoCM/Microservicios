@@ -1,0 +1,15 @@
+package com.tarjetas.digitales.deposito.api;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tarjetas.digitales.deposito.feing.ClientesTarjetas;
+
+@RestController
+public class DepositoController {
+
+	
+	@Autowired
+	private ClientesTarjetas cliente;
+	
+}
